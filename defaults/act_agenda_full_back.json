@@ -6,7 +6,7 @@
 
 
     "name": "<name>",
-    "name_region": { "x": 450, "y": 1085, "width": 1340, "height": 106 },
+    "name_region": { "x": 450, "y": 1060, "width": 1340, "height": 106 },
     "name_font": {
         "font": "title",
         "size": 90,
@@ -18,7 +18,7 @@
         "y": 1210,
         "width": 1960,
         "height": 225,
-        "attach_after": "flavor_text"
+        "attach_before": "flavor_text"
     },
 
     "text_font": {
