@@ -39,7 +39,7 @@
     },
 
     "clues": "<dash>",
-    "clues_region": { "x": 1895, "y": 920, "width": 160, "height": 160  },
+    "clues_region": { "x": 1895, "y": 898, "width": 160, "height": 160  },
     "clues_font": {
         "font": "skill",
         "size": 110,

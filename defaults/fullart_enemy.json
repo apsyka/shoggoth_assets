@@ -1,127 +1,133 @@
 {
-	"parent": "enemy",
-	"template": "fullart/enemy<subtitle>",
-    "template_bleed": true,
-    "editor": "enemy",
+  "parent": "enemy",
+  "template": "fullart/enemy<subtitle>",
+  "template_bleed": true,
+  "editor": "enemy",
 
-    "encounter_icon_region": {
-        "x": 766,
-        "y": 838,
-        "width": 108,
-        "height": 108
-    },
-    "label_region": { "x": 620, "y": 752, "width": 416, "height": 80 },
-    "victory_region": { "x": 372, "y": 660, "width": 900, "height": 100 },
-    "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130 },
+  "encounter_icon_region": {
+    "x": 766,
+    "y": 838,
+    "width": 108,
+    "height": 108
+  },
+  "label_region": { "x": 620, "y": 752, "width": 416, "height": 80 },
+  "victory_region": { "x": 372, "y": 660, "width": 900, "height": 100 },
+  "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130 },
 
-    "attack_region": { "x": 565, "y": 282, "width": 104, "height": 140 },
-    "evade_region": { "x": 986, "y": 282, "width": 104, "height": 140 },
-    "health_region": { "x": 765, "y": 272, "width": 120, "height": 140 },
-    "attack_font": {
-        "font": "skill",
-        "size": 84,
-        "color": "white",
-        "alignment": "center",
-        "outline": 2,
-        "outline_color": "#231f20"
-    },
-    "health_font": {
-        "font": "skill",
-        "size": 90,
-        "color": "white",
-        "alignment": "center",
-        "outline": 2,
-        "outline_color": "#231f20"
-    },
-    "evade_font": {
-        "font": "skill",
-        "size": 84,
-        "color": "white",
-        "alignment": "center",
-        "outline": 2,
-        "outline_color": "#231f20"
-    },
+  "attack_region": { "x": 565, "y": 282, "width": 104, "height": 140 },
+  "evade_region": { "x": 986, "y": 282, "width": 104, "height": 140 },
+  "health_region": { "x": 765, "y": 272, "width": 120, "height": 140 },
+  "attack_font": {
+    "font": "skill",
+    "size": 84,
+    "color": "white",
+    "alignment": "center",
+    "outline": 2,
+    "outline_color": "#231f20"
+  },
+  "health_font": {
+    "font": "skill",
+    "size": 90,
+    "color": "white",
+    "alignment": "center",
+    "outline": 2,
+    "outline_color": "#231f20"
+  },
+  "evade_font": {
+    "font": "skill",
+    "size": 84,
+    "color": "white",
+    "alignment": "center",
+    "outline": 2,
+    "outline_color": "#231f20"
+  },
 
-    "traits_region": { "x": 272, "y": 408, "width": 1116, "height": 120 },
-    "text_region": { 
-        "x": 272,
-        "y": 452,
-        "width": 1100,
-        "height": 260,
-        "attach_after": "flavor_text"
+  "traits_region": { "x": 272, "y": 408, "width": 1116, "height": 120 },
+  "traits_font": {
+        "font": "bolditalic",
+        "size": 62,
+        "alignment": "center"
     },
-    "text_polygon": [
-        [360, 492],
-        [1350, 492],
-        [1360, 552],
-        [1372, 604],
-        [1140, 728],
-        [612, 728],
-        [300, 604],
-        [300, 552],
-        [300, 492]
-    ],
+  "text_region": {
+    "x": 272,
+    "y": 452,
+    "width": 1100,
+    "height": 260,
+    "attach_after": "flavor_text"
+  },
+  "text_polygon": [
+    [360, 492],
+    [1360, 492],
+    [1370, 552],
+    [1382, 604],
+    [1140, 728],
+    [612, 728],
+    [300, 604],
+    [270, 552],
+    [300, 552],
+    [300, 492]
+  ],
 
-    "damage1_region": {
-        "x": 600,
-        "y": 698,
-        "width": 76,
-        "height": 92
-    },
-    "damage2_region": {
-        "x": 508,
-        "y": 675,
-        "width": 76,
-        "height": 92
-    },
-    "damage3_region": {
-        "x": 416,
-        "y": 644,
-        "width": 76,
-        "height": 92
-    },
-    "damage4_region": {
-        "x": 332,
-        "y": 601,
-        "width": 76,
-        "height": 92
-    },
-    "damage5_region": {
-        "x": 252,
-        "y": 550,
-        "width": 76,
-        "height": 92
-    },
-    "horror1_region": {
-        "x": 976,
-        "y": 698,
-        "width": 108,
-        "height": 96
-    },
-    "horror2_region": {
-        "x": 1068,
-        "y": 675,
-        "width": 108,
-        "height": 96
-    },
-    "horror3_region": {
-        "x": 1160,
-        "y": 644,
-        "width": 108,
-        "height": 96
-    },
-    "horror4_region": {
-        "x": 1244,
-        "y": 597,
-        "width": 108,
-        "height": 96
-    },
-    "horror5_region": {
-        "x": 1324,
-        "y": 546,
-        "width": 108,
-        "height": 96
-    },
+  "damage1_region": {
+    "x": 600,
+    "y": 698,
+    "width": 76,
+    "height": 92
+  },
+  "damage2_region": {
+    "x": 508,
+    "y": 675,
+    "width": 76,
+    "height": 92
+  },
+  "damage3_region": {
+    "x": 416,
+    "y": 644,
+    "width": 76,
+    "height": 92
+  },
+  "damage4_region": {
+    "x": 332,
+    "y": 601,
+    "width": 76,
+    "height": 92
+  },
+  "damage5_region": {
+    "x": 252,
+    "y": 550,
+    "width": 76,
+    "height": 92
+  },
+  "horror1_region": {
+    "x": 976,
+    "y": 698,
+    "width": 108,
+    "height": 96
+  },
+  "horror2_region": {
+    "x": 1068,
+    "y": 675,
+    "width": 108,
+    "height": 96
+  },
+  "horror3_region": {
+    "x": 1160,
+    "y": 644,
+    "width": 108,
+    "height": 96
+  },
+  "horror4_region": {
+    "x": 1244,
+    "y": 597,
+    "width": 108,
+    "height": 96
+  },
+  "horror5_region": {
+    "x": 1324,
+    "y": 546,
+    "width": 108,
+    "height": 96
+  },
 
-    "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 2244 }
+  "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 2244 }
 }
