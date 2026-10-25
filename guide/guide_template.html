@@ -331,7 +331,6 @@
 		*/
 		.content {
 			text-align: center;
-			margin: 0 9.6mm 0 6.4mm; 
 		}
 		.content h2 {
 			display: inline-block;
@@ -341,13 +340,26 @@
 		.content > * {
 			text-align: justify;
 		}
-		.content div { 
-			line-height: 13.3pt; 
-		}
-		.content .p::before { 
-			content: leader('.'); 
-		}
 
+		.index {
+			margin: 0 9.6mm 0 6.4mm;
+		}
+		.index p {
+			margin: 0;
+			line-height: 13.3pt;
+			text-align: left;
+			padding-right: 2em;
+		}
+		.index em {
+			font-style: normal;
+			margin-right: -2em;
+		}
+		.index em::before {
+			content: leader('.');
+		}
+		.index .p::before {
+			content: leader('.');
+		}
 		.story {
 			font-style: italic;
 		}
